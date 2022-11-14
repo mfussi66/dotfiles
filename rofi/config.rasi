@@ -1,0 +1,9 @@
+configuration {
+ modi: "combi";
+ font: "Fira Code Medium 12";
+ combi-modi: "drun";
+ icon-theme: "Mint-Y Dark";
+ show-icons: true;
+ }
+
+@theme "/usr/share/rofi/themes/glue_pro_blue.rasi"
