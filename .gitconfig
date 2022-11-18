@@ -1,0 +1,29 @@
+[user]
+	name = Mattia Fussi
+	email = mattia.fussi@iit.it
+[credential]
+	helper = store
+[gui]
+	editor = code
+[cola]
+	spellcheck = false
+[global]
+[diff]
+        tool = difftastic
+
+[difftool]
+        prompt = false
+
+[difftool "difftastic"]
+        cmd = difft "$LOCAL" "$REMOTE"
+# Use a pager for large output, just like other git commands.
+[pager]
+        difftool = true
+
+# `git dft` is less to type than `git difftool`.
+[alias]
+        dft = difftool
+[merge]
+	tool = meld
+[alias]
+	zap = !git add -A && git commit --allow-empty-message -m ''  && git push
