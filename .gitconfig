@@ -1,6 +1,6 @@
 [user]
-	name = Mattia Fussi
-	email = mattia.fussi@iit.it
+	name = 
+	email = 
 [credential]
 	helper = store
 [gui]
@@ -27,3 +27,4 @@
 	tool = meld
 [alias]
 	zap = !git add -A && git commit --allow-empty-message -m ''  && git push
+	logg = !git log --pretty=oneline --graph --all
