@@ -5,4 +5,4 @@ alias yif='yarprobotinterface'
 alias ymg='yarpmotorgui'
 alias ymn='yarpmanager'
 
-alias kssh="kitty +kitten ssh"
+[ "$TERM" = "xterm-kitty" ] && alias ssh="kitty +kitten ssh"
