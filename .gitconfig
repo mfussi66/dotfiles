@@ -19,12 +19,9 @@
 # Use a pager for large output, just like other git commands.
 [pager]
         difftool = true
-
-# `git dft` is less to type than `git difftool`.
-[alias]
-        dft = difftool
 [merge]
 	tool = meld
 [alias]
 	zap = !git add -A && git commit --allow-empty-message -m ''  && git push
 	logg = !git log --pretty=oneline --graph --all --abbrev-commit
+        dft = difftool
