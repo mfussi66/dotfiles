@@ -27,4 +27,4 @@
 	tool = meld
 [alias]
 	zap = !git add -A && git commit --allow-empty-message -m ''  && git push
-	logg = !git log --pretty=oneline --graph --all
+	logg = !git log --pretty=oneline --graph --all --abbrev-commit
